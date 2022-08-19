@@ -35,9 +35,11 @@
  *
  */
 
-drawLine(250, 500, 250, 350, 'purple')
+
 
 drawFilledRect(0, 0, 600, 600, 'black');
+
+drawLine(250, 500, 250, 350, 'purple')
 
 drawCircle(width/2, height/2, 51, 'red');
 
