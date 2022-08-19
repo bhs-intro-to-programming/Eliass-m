@@ -47,4 +47,4 @@ drawFilledRect(51, 50, 60, 40, 'purple');
 
 drawLine(50, 300, 100, 200, 'purple')
 
-drawLine(50, 400, 100, 200, 'purple')
+drawLine(50, 300, 100, 200, 'purple')
