@@ -76,5 +76,11 @@
     "answer": "s",
     "correct": false,
     "timestamp": 1661378339827
+  },
+  {
+    "name": "First character",
+    "answer": "g",
+    "correct": false,
+    "timestamp": 1661378361414
   }
 ]
