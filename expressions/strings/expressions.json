@@ -310,5 +310,11 @@
     "answer": "s.substring (1,Infinity)",
     "correct": false,
     "timestamp": 1661379735803
+  },
+  {
+    "name": "All but first and last",
+    "answer": "s.substring (1,Length-1)",
+    "correct": false,
+    "timestamp": 1661379879979
   }
 ]
