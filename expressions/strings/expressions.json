@@ -142,5 +142,11 @@
     "answer": "\"f\"",
     "correct": false,
     "timestamp": 1661378548551
+  },
+  {
+    "name": "First character",
+    "answer": "\"f\" && \"b\"",
+    "correct": false,
+    "timestamp": 1661378581208
   }
 ]
