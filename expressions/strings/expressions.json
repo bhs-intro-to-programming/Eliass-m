@@ -82,5 +82,11 @@
     "answer": "g",
     "correct": false,
     "timestamp": 1661378361414
+  },
+  {
+    "name": "First character",
+    "answer": "\"b\"",
+    "correct": false,
+    "timestamp": 1661378381267
   }
 ]
