@@ -124,5 +124,11 @@
     "answer": "\"bo\"",
     "correct": false,
     "timestamp": 1661378529647
+  },
+  {
+    "name": "First character",
+    "answer": "\"b\"",
+    "correct": false,
+    "timestamp": 1661378533806
   }
 ]
