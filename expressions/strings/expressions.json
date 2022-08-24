@@ -118,5 +118,11 @@
     "answer": "\"f\"",
     "correct": false,
     "timestamp": 1661378522022
+  },
+  {
+    "name": "First character",
+    "answer": "\"bo\"",
+    "correct": false,
+    "timestamp": 1661378529647
   }
 ]
