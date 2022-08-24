@@ -100,5 +100,11 @@
     "answer": "banana",
     "correct": false,
     "timestamp": 1661378471441
+  },
+  {
+    "name": "First character",
+    "answer": "\"b\"",
+    "correct": false,
+    "timestamp": 1661378480743
   }
 ]
