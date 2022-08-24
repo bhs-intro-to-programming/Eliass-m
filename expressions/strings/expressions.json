@@ -16,5 +16,11 @@
     "answer": "'foo0'",
     "correct": false,
     "timestamp": 1661378164134
+  },
+  {
+    "name": "Indexing",
+    "answer": "'f'",
+    "correct": true,
+    "timestamp": 1661378193950
   }
 ]
