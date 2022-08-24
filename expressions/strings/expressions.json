@@ -94,5 +94,11 @@
     "answer": "\"s\"",
     "correct": false,
     "timestamp": 1661378451141
+  },
+  {
+    "name": "First character",
+    "answer": "banana",
+    "correct": false,
+    "timestamp": 1661378471441
   }
 ]
