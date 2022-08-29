@@ -601,5 +601,12 @@
     "answer": "s.substring ( toUpperCase [0])",
     "correct": false,
     "timestamp": 1661810717101
+  },
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1)",
+    "answer": "toUpperCase",
+    "correct": false,
+    "timestamp": 1661810762775
   }
 ]
