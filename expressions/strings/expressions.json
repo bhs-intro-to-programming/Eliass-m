@@ -363,5 +363,19 @@
     "answer": "toUpperCase(0)",
     "correct": false,
     "timestamp": 1661810595458
+  },
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1)",
+    "answer": "toUpperCase(0)",
+    "correct": false,
+    "timestamp": 1661810595665
+  },
+  {
+    "name": "Capitalize",
+    "canonical": "s[0].toUpperCase() + s.substring(1)",
+    "answer": "toUpperCase (0)",
+    "correct": false,
+    "timestamp": 1661810607746
   }
 ]
