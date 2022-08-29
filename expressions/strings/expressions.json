@@ -1014,5 +1014,19 @@
     "answer": "s.substring[0,2].toUpperCase() + s.substring(3).toLowerCase()",
     "correct": false,
     "timestamp": 1661812155343
+  },
+  {
+    "name": "Capitalize first three",
+    "canonical": "s.substring(0,3).toUpperCase() + s.substring(3)",
+    "answer": "s.substring[0,2].toUpperCase() + s.substring(3).toLowerCase()",
+    "correct": false,
+    "timestamp": 1661812155575
+  },
+  {
+    "name": "Capitalize first three",
+    "canonical": "s.substring(0,3).toUpperCase() + s.substring(3)",
+    "answer": "s.substring[0,2].toUpperCase() + s.substring(3).toLowerCase()",
+    "correct": false,
+    "timestamp": 1661812155783
   }
 ]
