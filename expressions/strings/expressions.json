@@ -1098,5 +1098,26 @@
     "answer": "s.substring[0,2].toUpperCase() + s.substring(3).toLowerCase()",
     "correct": false,
     "timestamp": 1661812157752
+  },
+  {
+    "name": "Capitalize first three",
+    "canonical": "s.substring(0,3).toUpperCase() + s.substring(3)",
+    "answer": "s.substring[0,2].toUpperCase() + s.substring(3).toLowerCase()",
+    "correct": false,
+    "timestamp": 1661812157919
+  },
+  {
+    "name": "Capitalize first three",
+    "canonical": "s.substring(0,3).toUpperCase() + s.substring(3)",
+    "answer": "s.substring[0,2].toUpperCase() + s.substring(3).toLowerCase()",
+    "correct": false,
+    "timestamp": 1661812158079
+  },
+  {
+    "name": "Capitalize first three",
+    "canonical": "s.substring(0,3).toUpperCase() + s.substring(3)",
+    "answer": "s.substring[0,2].toUpperCase() + s.substring(3).toLowerCase()",
+    "correct": false,
+    "timestamp": 1661812158231
   }
 ]
