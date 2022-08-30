@@ -110,5 +110,12 @@
     "answer": "inTheClass || isProctor",
     "correct": true,
     "timestamp": 1661897913670
+  },
+  {
+    "name": "Super beat?",
+    "canonical": "!enoughSleep && !eatenEnough",
+    "answer": "!enoughSleep && !eatenEnough",
+    "correct": true,
+    "timestamp": 1661897936351
   }
 ]
