@@ -96,5 +96,12 @@
     "answer": "Math.abs(a - b)",
     "correct": true,
     "timestamp": 1661898734416
+  },
+  {
+    "name": "Average",
+    "canonical": "(a + b) / 2",
+    "answer": "(a + b)/2",
+    "correct": true,
+    "timestamp": 1661898755504
   }
 ]
