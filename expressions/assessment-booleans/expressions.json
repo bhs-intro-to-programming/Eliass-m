@@ -138,5 +138,12 @@
     "answer": "!afraidOfTheDark &&! afraidOfSpiders",
     "correct": true,
     "timestamp": 1661898224344
+  },
+  {
+    "name": "Lighting a fire?",
+    "canonical": "fireLit || !haveMatches",
+    "answer": "fireLit ||!haveMatches",
+    "correct": true,
+    "timestamp": 1661898359452
   }
 ]
