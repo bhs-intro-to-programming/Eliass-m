@@ -145,5 +145,12 @@
     "answer": "fireLit ||!haveMatches",
     "correct": true,
     "timestamp": 1661898359452
+  },
+  {
+    "name": "Ready for some football?",
+    "canonical": "fast && strong",
+    "answer": "fast&&strong",
+    "correct": true,
+    "timestamp": 1661898368284
   }
 ]
