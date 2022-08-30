@@ -26,5 +26,12 @@
     "answer": "1337*32",
     "correct": true,
     "timestamp": 1661895871684
+  },
+  {
+    "name": "Difference",
+    "canonical": "a - b",
+    "answer": "a - b",
+    "correct": true,
+    "timestamp": 1661895894653
   }
 ]
