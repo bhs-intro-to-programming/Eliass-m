@@ -89,5 +89,12 @@
     "answer": "4*Math.PI",
     "correct": true,
     "timestamp": 1661898716982
+  },
+  {
+    "name": "Distance",
+    "canonical": "Math.abs(a - b)",
+    "answer": "Math.abs(a - b)",
+    "correct": true,
+    "timestamp": 1661898734416
   }
 ]
