@@ -12,5 +12,12 @@
     "answer": "s.substring (0,3)",
     "correct": true,
     "timestamp": 1661910940623
+  },
+  {
+    "name": "Last three",
+    "canonical": "s.substring(s.length - 3)",
+    "answer": "s.substring (s.length-[3])",
+    "correct": true,
+    "timestamp": 1661911015929
   }
 ]
