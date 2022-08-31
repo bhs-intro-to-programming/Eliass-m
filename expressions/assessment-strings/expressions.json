@@ -103,5 +103,12 @@
     "answer": "s.substring(0,[s.length]).toUpperCase() + s.toLowerCase().substring(s.length)",
     "correct": true,
     "timestamp": 1661911974980
+  },
+  {
+    "name": "First character",
+    "canonical": "s[0]",
+    "answer": "s[0]",
+    "correct": true,
+    "timestamp": 1661912017463
   }
 ]
