@@ -145,5 +145,12 @@
     "answer": "s.length",
     "correct": true,
     "timestamp": 1661912856266
+  },
+  {
+    "name": "Last character",
+    "canonical": "s[s.length - 1]",
+    "answer": "s[s.length-1]",
+    "correct": true,
+    "timestamp": 1661912996630
   }
 ]
