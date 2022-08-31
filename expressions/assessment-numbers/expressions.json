@@ -103,5 +103,12 @@
     "answer": "(a + b)/2",
     "correct": true,
     "timestamp": 1661898755504
+  },
+  {
+    "name": "Remainder",
+    "canonical": "a % b",
+    "answer": "a%b",
+    "correct": true,
+    "timestamp": 1661909785173
   }
 ]
