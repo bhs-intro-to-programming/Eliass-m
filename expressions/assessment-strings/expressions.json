@@ -47,5 +47,12 @@
     "answer": "s[0,s.length].toUpperCase()",
     "correct": false,
     "timestamp": 1661911390957
+  },
+  {
+    "name": "UPPER CASE",
+    "canonical": "s.toUpperCase()",
+    "answer": "s[0,(s.length)].toUpperCase()",
+    "correct": false,
+    "timestamp": 1661911407425
   }
 ]
