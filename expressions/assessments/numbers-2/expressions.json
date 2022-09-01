@@ -33,5 +33,12 @@
     "answer": "Math.abs(x1 - x2) + Math.abs(y1 - y2)",
     "correct": true,
     "timestamp": 1662069404958
+  },
+  {
+    "name": "1337 times 32",
+    "canonical": "1337 * 32",
+    "answer": "1337*32",
+    "correct": true,
+    "timestamp": 1662069419597
   }
 ]
