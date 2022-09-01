@@ -40,5 +40,12 @@
     "answer": "s.substring(0,3)",
     "correct": true,
     "timestamp": 1662070780194
+  },
+  {
+    "name": "Length",
+    "canonical": "s.length",
+    "answer": "s.length",
+    "correct": true,
+    "timestamp": 1662070822916
   }
 ]
