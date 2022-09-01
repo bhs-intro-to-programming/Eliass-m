@@ -89,5 +89,12 @@
     "answer": "!storeOpen || linesTooLong",
     "correct": true,
     "timestamp": 1662069987676
+  },
+  {
+    "name": "Not feeling it?",
+    "canonical": "!fun || tired",
+    "answer": "!fun || tired",
+    "correct": true,
+    "timestamp": 1662070076190
   }
 ]
