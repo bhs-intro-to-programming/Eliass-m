@@ -19,5 +19,12 @@
     "answer": "s.toUpperCase()",
     "correct": true,
     "timestamp": 1662070654310
+  },
+  {
+    "name": "All but first and last",
+    "canonical": "s.substring(1, s.length - 1)",
+    "answer": "s.substring(1, s.length-1)",
+    "correct": true,
+    "timestamp": 1662070707296
   }
 ]
