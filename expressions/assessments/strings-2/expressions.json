@@ -82,5 +82,12 @@
     "answer": "\ts.substring(0,3).toUpperCase() + s.substring(3,s.length).toLowerCase()",
     "correct": true,
     "timestamp": 1662071337376
+  },
+  {
+    "name": "lower case",
+    "canonical": "s.toLowerCase()",
+    "answer": "s.toLowerCase()",
+    "correct": true,
+    "timestamp": 1662071349665
   }
 ]
