@@ -1,3 +1,3 @@
-const add = (Math.random); (Math.random) => {
-  return Math.random + Math.random;
+const add = (a,b) => {
+  return a+b;
 };
