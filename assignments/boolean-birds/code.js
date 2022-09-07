@@ -16,3 +16,4 @@
  *   - Globby Birds eat fish, mice, and nuts.
  *
  */
+const iFlobbyBird = red && spotted 
