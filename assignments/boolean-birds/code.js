@@ -17,5 +17,5 @@
  *
  */
 const iFlobbyBird = (red, spotted) => {
-  return ()
+  return red && spotted
 }
