@@ -41,5 +41,5 @@ const eatsMice = (red, spotted) => {
   return !spotted || !red
 }
 const isRed = (FlobbyBirds, BloggyBirds, FlibbleBirds, GlobbyBirds) => {
-  return 'FlobbyBirds' || 'BloggyBirds' &&! 'FlibbleBirds' &&! 'GlobbyBirds'
+  return 'Flobby' || 'Bloggy' &&! 'Flibble' &&! 'Globby'
 }
