@@ -43,3 +43,6 @@ const eatsMice = (red, spotted) => {
 const isRed = (redburd) => {
   return redburd=== 'Flobby' ||redburd=== 'Bloggy'
 }
+const isSpotted = (redburd) => {
+  return redburd=== 'Flobby' ||redburd=== 'Flibble'
+}
