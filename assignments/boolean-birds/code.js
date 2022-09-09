@@ -41,5 +41,5 @@ const eatsMice = (red, spotted) => {
   return !spotted || !red
 }
 const isRed = (redburd) => {
-  return redbird=== 'Flobby' ||redbird=== 'Globby'
+  return redburd=== 'Flobby' ||redburd=== 'Globby'
 }
