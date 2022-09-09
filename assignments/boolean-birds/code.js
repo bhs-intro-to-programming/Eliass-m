@@ -44,7 +44,7 @@ const isRed = (redburd) => {
   return redburd=== 'Flobby' ||redburd=== 'Bloggy'
 }
 const isSpotted = (redburd) => {
-  return redburd=== 'Flobby' ||redburd=== 'Bloggy'
+  return redburd=== 'Flobby' ||redburd=== 'Flibble'
 }
 const isNotRed = (redburd) => {
   return redburd=== '' ||redburd=== ''
