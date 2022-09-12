@@ -31,3 +31,7 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
+const pigLatin = (w) => {
+  var l= (w.search(/[aeiou]/))
+  return w.substring(l,w.length) + w.substring(0,l) + 'ay'
+}
