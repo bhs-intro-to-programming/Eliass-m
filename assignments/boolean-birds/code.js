@@ -20,19 +20,19 @@ const isFlobbyBird = (red, spotted) => {
   return red && spotted
 }
 const isBloggyBird = (red, spotted) => {
-  return red && ! spotted
+  return red && !spotted
 }
 const isFlibbleBird = (red, spotted) => {
   return !red && spotted
 }
 const isGlobbyBird = (red, spotted) => {
-  return !red && ! spotted
+  return !red && !spotted
 }
 const eatsWorms = (red, spotted) => {
   return red || spotted
 }
 const eatsNuts = (red, spotted) => {
-  return red ||! spotted
+  return red || !spotted
 }
 const eatsFish = (red, spotted) => {
   return spotted || !red
@@ -44,11 +44,11 @@ const isRed = (redburd) => {
   return redburd === 'Flobby' || redburd === 'Bloggy'
 }
 const isSpotted = (redburd) => {
-  return redburd=== 'Flobby' ||redburd=== 'Flibble'
+  return redburd === 'Flobby' || redburd === 'Flibble'
 }
 const isNotRed = (redburd) => {
-  return redburd=== 'Flibble' ||redburd=== 'Globby'
+  return redburd === 'Flibble' || redburd === 'Globby'
 }
 const isNotSpotted = (redburd) => {
-  return redburd=== 'Globby' ||redburd=== 'Bloggy'
+  return redburd === 'Globby' || redburd === 'Bloggy'
 }
