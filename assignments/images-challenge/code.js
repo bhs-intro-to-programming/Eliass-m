@@ -23,3 +23,6 @@
  *
  *  clear()
  */
+
+
+const drawFilledCircle(10, 10, 10, blue)
