@@ -25,4 +25,4 @@
  */
 
 
-const drawFilledCircle (10, 10, 10, blue)
+const drawFilledCircles (10, 10, 10, blue)
