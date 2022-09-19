@@ -25,4 +25,4 @@
  */
 
 
-drawCircle(50, 300, 30, 'red', 2)
+drawCircle(50, 300, 10, 'red', 2)
