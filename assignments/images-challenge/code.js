@@ -25,4 +25,4 @@
  */
 
 
-const drawCircle(50, 50, 'red', 2)
+drawCircle(50, 50, 'red', 2)
