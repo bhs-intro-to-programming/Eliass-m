@@ -24,8 +24,15 @@
  *  clear()
  */
 
-const lineOfCircles = () => {
+const fillwithcircles = () => {
 for (let x = 0; x < 20; x++){
-drawFilledCircle(10, 10, 10, 'red', 2)
+drawFilledCircle(x*10, 300, 10, 'red', 2)
 } 
 }
+const fillwithcircles = () => {
+for (let x = 0; x < 50; x++) 
+if (x > length) {
+ drawFilledCircle(x*10, height/2 , 5, 'red', 1)
+}
+ }
+fillwithcircles();
