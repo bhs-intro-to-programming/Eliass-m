@@ -29,3 +29,4 @@ for (let x = 0; x < 20; x++){
 drawFilledCircle(x*10, 300, 10, 'red', 2)
 } 
 }
+fillwithcircles;
