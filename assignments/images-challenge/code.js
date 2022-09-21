@@ -24,7 +24,7 @@
  *  clear()
  */
 const everyOtherCircle = () => {
- return (i=='blue',o=='red')
+ return 'blue', 'red'
 }
 const fillwithcircles = () => {
 for (let x = 1; x < 21; x++) {
