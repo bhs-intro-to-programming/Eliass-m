@@ -25,7 +25,7 @@
  */
 
 const fillwithcircles = () => {
-for (let x = 1; x < 20; x++){
+for (let x = 1; x < 21; x++){
 drawFilledCircle(x*20, 300, 10, 'blue')
 drawFilledCircle(x*20, 300, 10, 'red')
 } 
