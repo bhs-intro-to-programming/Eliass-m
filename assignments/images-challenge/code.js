@@ -23,7 +23,7 @@
  *
  *  clear()
  */
-const everyOtherCircle = (ioioioioioioioioioioioioioi) => {
+const everyOtherCircle = () => {
  return (i=='blue',o=='red')
 }
 const fillwithcircles = () => {
