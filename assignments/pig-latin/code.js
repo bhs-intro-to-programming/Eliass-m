@@ -37,5 +37,5 @@ const pigLatin = (e) => {
 }
 const advancedPigLatin = (a) => {
   var b = (a.search(/[aeiou]/))
-  return b === 0 ? a + "way" : pigLatin(e)
+  return b === 0 ? a + "way" : pigLatin(b)
 }
