@@ -30,5 +30,7 @@ drawFilledCircle(x*20, 300, 10, 'blue')
 }
 fillwithcircles();
 
-/*const everyOtherCircle = () => {
- *return (i=='blue',o=='red')
+//const everyOtherCircle = () => {
+//return (i=='blue',o=='red')
+
+
