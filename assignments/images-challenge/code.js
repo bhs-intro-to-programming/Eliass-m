@@ -23,12 +23,12 @@
  *
  *  clear()
  */
-const fillwithcircles = () => {
-for (let x = 1; x < 21; x++) {
-drawFilledCircle(x*24, 300, 12, 'red')
-} 
+const fillwithcircles = (r) => {
+  for (let x = 1; x < 21; x++) {
+    drawFilledCircle(x * r*2, 300, r, 'red')
+  }
 }
-fillwithcircles();
+fillwithcircles(12);
 
 //const everyOtherCircle = () => {
 //return (i=='blue',o=='red')
