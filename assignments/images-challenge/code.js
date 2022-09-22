@@ -24,7 +24,7 @@
  *  clear()
  */
 const fillwithcircles = (r) => {
-  for (let x = 1; x < r/r + 21 ; x++) {
+  for (let x = 1; x < r/r + 20 ; x++) {
     drawFilledCircle(x * r*2, 300, r, 'red')
   }
 }
