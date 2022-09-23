@@ -23,10 +23,10 @@
  *
  *  clear()
  */
-
+const numCircles = math.Floor(width/d);
 
 const fillwithcircles = (r) => {
-const numCircles = math.Floor(width/d);
+
   for (let x = 1; x < 21 ; x++) {
     drawFilledCircle(x * r*2, 300, r, 'red')
     const numCircles = M
