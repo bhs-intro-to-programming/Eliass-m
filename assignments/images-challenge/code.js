@@ -33,7 +33,7 @@ const numCircles = Math.Floor(width/d);
     
   }
 }
-fillwithcircles(24);
+fillwithcircles(12);
 
 //const everyOtherCircle = () => {
 //return (i=='blue',o=='red')
