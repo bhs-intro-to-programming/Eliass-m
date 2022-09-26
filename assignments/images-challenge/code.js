@@ -23,14 +23,12 @@
  *
  *  clear()
  */
-//const numCircles = Math.Floor(width/d);
-
+const numCircles = Math.Floor(width / d);
 const fillwithcircles = (r) => {
-const d =r*2
-const numCircles = Math.Floor(width/d);
-  for (let x = 1; x < numCircles ; x++) {
-    drawFilledCircle(x * r*2, 300, r, 'red')
-    
+  const d = r * 2
+  for (let x = 1; x < 'numCircles'; x++) {
+    drawFilledCircle(x * r * 2, 300, r, 'red')
+
   }
 }
 fillwithcircles(12);
@@ -39,4 +37,3 @@ fillwithcircles(12);
 //return (i=='blue',o=='red')
 
 
-  
