@@ -23,9 +23,9 @@
  *
  *  clear()
  */
-const numCircles = Math.Floor(width / d);
+const numCircles = Math.Floor(width / distance);
 const fillwithcircles = (r) => {
-  const d = r * 2();
+  const distance = r * 2();
   for (let x = 1; x < numCircles; x++) {
     drawFilledCircle(x * r * 2, 300, r, 'red')
 
