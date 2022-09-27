@@ -23,7 +23,7 @@
  *
  *  clear()
  */
-let d =1
+let d = 1
 const numCircles = Math.Floor(width / d);
 const fillwithcircles = (r) => {
   const d = r * 2
