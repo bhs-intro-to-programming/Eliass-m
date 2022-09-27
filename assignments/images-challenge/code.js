@@ -32,7 +32,7 @@ const fillwithcircles = (r) => {
 
   }
 }
-fillwithcircles(12);
+fillwithcircles(18);
 
 //const everyOtherCircle = () => {
 //return (i=='blue',o=='red')
