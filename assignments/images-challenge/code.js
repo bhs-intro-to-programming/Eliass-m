@@ -29,8 +29,7 @@ const fillwithcircles = (r) => {
   const distance = r * 2();
   for (let x = 1; x < numCircles; x++) 
   if (x > length) {
-    drawFilledCircle(x * 2, 300, r, 'red')
-
+    drawFilledCircle(x * 2, 300, 15, 'red')
   }
 }
 fillwithcircles(18);
