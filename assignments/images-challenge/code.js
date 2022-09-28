@@ -24,9 +24,9 @@
  *  clear()
  */
 let d = 1
-const numbcircles = Math.floor (width/30)
+const numbcircles = Math.floor (width)
 const fillwithcircles = (r) => {
-  for (let x = 0; x < numbcircles; x++)
+  for (let x = 0; x < numbcircles * r; x++)
     if (x > length) {
       drawFilledCircle(x * r, height/2, 15, 'tan')
     }
