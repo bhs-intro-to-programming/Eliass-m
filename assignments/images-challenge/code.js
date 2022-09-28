@@ -32,7 +32,7 @@ const fillwithcircles = (r) => {
       drawFilledCircle(x * r, 300, 15, 'red')
     }
 }
-fillwithcircles(20);
+fillwithcircles(10);
 
 //const everyOtherCircle = () => {
 //return (i=='blue',o=='red')
