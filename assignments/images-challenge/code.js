@@ -25,7 +25,7 @@
  */
 let d = 1
 const fillwithcircles = (r) => {
-  for (let x = 0; x < width/25; x++)
+  for (let x = 0; x < width/26; x++)
     if (x > length) {
       drawFilledCircle(x * r, height/2, 15, 'tan')
     }
