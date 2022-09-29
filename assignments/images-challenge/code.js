@@ -29,7 +29,7 @@ const fillwithcircles = (r) => {
   const offset = width - (d * numbcircles);
   for (let x = 0; x < numbcircles / r; x++)
     if (x > length) {
-      drawFilledCircle(x * r, height / 2, 15, 'tan')
+      drawFilledCircle(offset + d * x, height / 2, r, 'tan')
     }
 }
 fillwithcircles(30);
