@@ -23,7 +23,6 @@
  *
  *  clear()
  */
-let d = 1
 const numbcircles = Math.floor (width)
 const fillwithcircles = (r) => {
   for (let x = 0; x < numbcircles/r ; x++)
