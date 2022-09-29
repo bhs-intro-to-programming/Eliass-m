@@ -27,7 +27,7 @@ const fillwithcircles = (r) => {
   const d = r * 2
   const numbcircles = Math.floor(width / d);
   const offset = width - (d * numbcircles);
-  for (let x = 0; x < numbcircles / r; x++)
+  for (let x = 0; x < numbcircles; x++)
     if (x > length) {
       drawFilledCircle(offset + d * x, height / 2, r, 'tan')
     }
