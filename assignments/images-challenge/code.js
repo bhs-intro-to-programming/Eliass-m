@@ -25,11 +25,11 @@
  */
 const fillwithcircles = (r) => {
   const d = r * 2
-  const numbcircles = Math.floor (width / d)
+  const numbcircles = Math.floor(width / d)
   const offset = width - (d * numbcircles);
-  for (let x = 0; x < numbcircles/r ; x++)
+  for (let x = 0; x < numbcircles / r; x++)
     if (x > length) {
-      drawFilledCircle(x * r, height/2, 15, 'tan')
+      drawFilledCircle(x * r, height / 2, 15, 'tan')
     }
 }
 fillwithcircles(30);
