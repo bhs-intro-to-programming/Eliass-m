@@ -7,10 +7,15 @@
 //};
 
 const canSleepIn = (weekday, vacation) => {
-  vacation || ! weekday;
+  canSleepIn = vacation || ! weekday;
 }
 
 //const firstHalf = 
 
 //const containsX = ()
- 
+
+//const drawCircles = ()
+
+//drawCircles(30)
+
+
