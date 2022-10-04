@@ -13,5 +13,7 @@ const averageWeight = (weight, numitems) => {
 const hypotenuse = (sidea, sideb) => {
   return Math.sqrt(sidea ** 2 + sideb ** 2);
 };
-
+const maxRadius = (width, height) => {
+  return Math.min(width, height) /2
+};
 
