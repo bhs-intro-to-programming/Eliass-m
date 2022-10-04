@@ -18,6 +18,6 @@ const maxRadius = (width, height) => {
   return Math.min(width, height) /2
 };
 
-const numCircles = (radius) => {
+const numCircles = (radius, width) => {
   return Math.floor(width / (radius *2))
 }
