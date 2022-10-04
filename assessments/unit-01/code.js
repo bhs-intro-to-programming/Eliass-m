@@ -6,16 +6,8 @@
 //  console.log(`${a} times ${b} is ${product}`);
 //};
 
-const canSleepIn = (weekday, vacation) => {
-  canSleepIn = vacation || ! weekday;
-}
-
-//const firstHalf = 
-
-//const containsX = ()
-
-//const drawCircles = ()
-
-//drawCircles(30)
+const averageWeight = (weight, numitems) => {
+  return weight / numitems;
+};
 
 
