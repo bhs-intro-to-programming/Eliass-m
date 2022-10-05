@@ -1,3 +1,3 @@
 const timesseven = (s) => {
-  return s * 7;
-} 
+  return s*7
+}
