@@ -1,0 +1,1 @@
+const perimeterOfsquare = (s) => s * 4; 
