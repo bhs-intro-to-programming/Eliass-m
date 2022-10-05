@@ -1,3 +1,3 @@
-const perimeterOfsquare = (s) => {
-  return s * 4;
+const timesseven = (s) => {
+  return s * 7;
 } 
