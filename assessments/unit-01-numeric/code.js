@@ -25,3 +25,7 @@ const volumeOfCube = (length) => {
 const populationGrowth = (popsize, growthrate) => {
   return popsize * growthrate
 }
+
+const earnedRunAverage = (earnedruns, innings) => {
+  return (earnedruns / innings) * 9
+}
