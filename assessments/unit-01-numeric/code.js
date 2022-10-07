@@ -29,3 +29,5 @@ const populationGrowth = (popsize, growthrate) => {
 const earnedRunAverage = (earnedruns, innings) => {
   return (earnedruns / innings) * 9
 }
+
+
