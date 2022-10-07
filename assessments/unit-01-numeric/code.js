@@ -9,9 +9,8 @@ const G = 6.6743e-11;
 // credit for a clear and simple working function.
 
 const itemsLeftOver = (numppl, numitems) => {
-  return
-}
-
+  return ;
+};
 
 const areaOfCircle = (r) => {
   return (math.PI(r ** 2));
@@ -23,11 +22,13 @@ const volumeOfCube = (length) => {
 };
 
 const populationGrowth = (popsize, growthrate) => {
-  return popsize * growthrate
-}
+  return popsize * growthrate;
+};
 
 const earnedRunAverage = (earnedruns, innings) => {
-  return (earnedruns / innings) * 9
-}
+  return (earnedruns / innings) * 9;
+};
 
-const valueOfJewels = (numdiamonds, numemeralds, )
+const valueOfJewels = (numdiamonds, numemeralds, goldvaldiamond, goldvalemerald) => {
+  return ;
+};
