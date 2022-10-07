@@ -13,7 +13,7 @@ const itemsLeftOver = (numppl, numitems) => {
 };
 
 const areaOfCircle = (r) => {
-  return (math.PI(r ** 2));
+  return (Math.PI)(r ** 2);
 };
 
 
