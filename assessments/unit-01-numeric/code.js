@@ -14,7 +14,7 @@ const itemsLeftOver = (numppl, numitems) => {
 
 
 const areaOfCircle = (r) => {
-  return (Math.PI(r ** 2));
+  return (math.PI(r ** 2));
 };
 
 
@@ -30,4 +30,4 @@ const earnedRunAverage = (earnedruns, innings) => {
   return (earnedruns / innings) * 9
 }
 
-
+const valueOfJewels = (numdiamonds, numemeralds, )
