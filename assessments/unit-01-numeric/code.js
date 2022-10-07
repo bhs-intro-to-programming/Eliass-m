@@ -14,8 +14,10 @@ const itemsLeftOver = (numppl, numitems) => {
 
 
 const areaOfCircle = (r) => {
-  return Math.PI(r ** 2);
+  return (Math.PI(r ** 2));
 };
 
 
-
+const volumeOfCube = (length) => {
+  return length**3;
+};
