@@ -9,7 +9,7 @@ const G = 6.6743e-11;
 // credit for a clear and simple working function.
 
 const itemsLeftOver = (numppl, numitems) => {
-  return 
+  return
 }
 
 
@@ -19,5 +19,9 @@ const areaOfCircle = (r) => {
 
 
 const volumeOfCube = (length) => {
-  return length**3;
+  return length ** 3;
 };
+
+const populationGrowth = (popsize, growthrate) => {
+  return popsize * growthrate
+}
