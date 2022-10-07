@@ -8,6 +8,9 @@ const G = 6.6743e-11;
 // reasonable argument list, yet more credit for a working function, and full
 // credit for a clear and simple working function.
 
+const itemsLeftOver = (numppl, numitems) => {
+  return 
+}
 
 
 const areaOfCircle = (r) => {
