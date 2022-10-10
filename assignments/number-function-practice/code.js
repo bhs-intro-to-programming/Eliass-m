@@ -22,11 +22,11 @@ const valueOfJewels = (numdiamonds, numemeralds, goldvaldiamond, goldvalemerald)
   return (numdiamonds * goldvaldiamond) + (numemeralds * goldvalemerald);
 };
 
-const payWithOvertime = () => {
+const payWithOvertime = (numhours, normhrate, overtrate) => {
   ;
 };
 
-const firstClassPostage = () => {
+const firstClassPostage = (letteroz) => {
   ;
 };
 
