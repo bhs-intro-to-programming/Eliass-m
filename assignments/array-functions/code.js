@@ -3,7 +3,6 @@ const countTens = (arrayTens) => {
   for (let i = 0; i < arrayTens.length; i++){
     console.log(arrayTens[i])
     if (arrayTens[i] == 10){
-      console.log(j)
       tens++
     }
   }
