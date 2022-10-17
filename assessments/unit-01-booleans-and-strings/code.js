@@ -14,7 +14,7 @@ const rand = (n) => Math.floor(Math.random() * n);
 
 
 const fireAlarm = (alarmpulled, smoke, drill) => {
-   = alarmpulled || smoke || drill;
+  true = alarmpulled || smoke || drill;
   false = !alarmpulled && !smoke && !drill;
 };
 
