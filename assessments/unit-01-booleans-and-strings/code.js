@@ -14,6 +14,8 @@ const fireAlarm = (alarmpulled, smoke, drill) => {
   return alarmpulled || smoke || drill;
 };
 
-
+const canBePresident = (least35, usleast14, citizen) => {
+  return ;
+};
 
 
