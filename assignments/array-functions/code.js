@@ -1,4 +1,7 @@
-const countTens = [1, 4, 10, 7, 90];
+
+const countTens = (arrayTens) => {
+
+
 for (let i = 0; i < countTens.length; i++){
 console.log(countTens[i])
 let j = countTens[i]
@@ -11,7 +14,7 @@ if (j == 10){
 
 
 }
-
+};
 
 
 
