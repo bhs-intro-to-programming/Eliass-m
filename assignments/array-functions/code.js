@@ -1,8 +1,8 @@
-const countTens = () => {
+const countTens = (tens) => {
   let tens = 0
-  for (let i = 0; i < countTens.length; i++){
-    console.log(countTens[i])
-    if (arrayTens[i] == 10){
+  for (let i = 0; i < tens.length; i++){
+    console.log(tens[i])
+    if (tens[i] == 10){
       tens++
     }
   }
