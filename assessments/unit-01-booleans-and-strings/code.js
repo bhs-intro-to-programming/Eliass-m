@@ -23,4 +23,17 @@ const canBePresident = (age, citizen, yearsinus) => {
   false = age < 35 || ! citizen || yearsinus < 14; 
 };
 
+const willSeeTweet = (follower, followretweet, blocked) => {
+  true = ;
+  false = ; 
+};
 
+const evenGreaterThanZero = (evenNumMoreZero) => {
+  true = ;
+  false = ; 
+};
+
+const isLeapYear = () => {
+  true = ;
+  false = ; 
+};
