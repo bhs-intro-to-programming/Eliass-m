@@ -10,6 +10,9 @@ const rand = (n) => Math.floor(Math.random() * n);
 // reasonable argument list, yet more credit for a working function, and full
 // credit for a clear and simple working function.
 
+
+
+
 const fireAlarm = (alarmpulled, smoke, drill) => {
   true = alarmpulled || smoke || drill;
   false = !alarmpulled && !smoke && !drill;
