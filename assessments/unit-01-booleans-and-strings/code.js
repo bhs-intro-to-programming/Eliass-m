@@ -18,7 +18,7 @@ const fireAlarm = (pulled, smoke, drill) => {
 };
 
 const canBePresident = (age, citizen, yearsinus) => {
-  return ! age >= 35 && citizen && yearsinus >= 14;
+  return age >= 35 && citizen && yearsinus >= 14;
 };
 
 //const willSeeTweet = (follower, followretweet, blocked) => {
