@@ -13,8 +13,8 @@ const rand = (n) => Math.floor(Math.random() * n);
 
 
 
-const fireAlarm = (alarmpulled, smoke, drill) => {
-  return alarmpulled || smoke || drill;
+const fireAlarm = (pulled, smoke, drill) => {
+  return pulled || smoke || drill;
 };
 
 const canBePresident = (age, citizen, yearsinus) => {
