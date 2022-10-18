@@ -14,13 +14,11 @@ const rand = (n) => Math.floor(Math.random() * n);
 
 
 const fireAlarm = (alarmpulled, smoke, drill) => {
-  true = alarmpulled || smoke || drill;
-  false = !alarmpulled && !smoke && !drill;
+  return alarmpulled || smoke || drill;
 };
 
 const canBePresident = (age, citizen, yearsinus) => {
-  true = ! age >= 35 && citizen && yearsinus >= 14;
-  false = age < 35 || ! citizen || yearsinus < 14; 
+  return ! age >= 35 && citizen && yearsinus >= 14;
 };
 
 const willSeeTweet = (follower, followretweet, blocked) => {
