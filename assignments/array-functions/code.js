@@ -1,22 +1,19 @@
-const countTens = (arrayTens) => {
+const countTens = (array) => {
   let tens = 0
-  for (let i = 0; i < arrayTens.length; i++){
-    if (arrayTens[i] == 10){
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] == 10) {
       tens++
     }
   }
   return tens
 };
 
-const sum = (arraySum) => {
-  let s = 0
-  for (let i = 0; i < arraySum.length; i++){
-    if (arraySum[i] == 10){
-      s++
-    }
-  }
-  return s
-};
-
+const sum = (array) => {
+  let add = 0
+  for (const element of array) {
+    add += element;
+  };
+  return element
+}
 
 //const anyOverOneHundred = 
