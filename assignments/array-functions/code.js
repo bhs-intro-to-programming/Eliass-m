@@ -13,7 +13,7 @@ const sum = (array) => {
   for (const element of array) {
     add += element
   }
-  return element
+  return add
 }
 
 //const anyOverOneHundred = 
