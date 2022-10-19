@@ -11,9 +11,19 @@ const countTens = (array) => {
 const sum = (array) => {
   let add = 0
   for (const element of array) {
-    add += element
+    add += element;
   }
   return add
+}
+
+const evens = (array) => {
+  let evenArray = []
+  for (const element of array) {
+    if (element % 2 === 0)
+      evenArray.push(element)
+  }
+
+  return evenArray
 }
 
 //const anyOverOneHundred = 
