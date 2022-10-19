@@ -1,6 +1,6 @@
 const countTens = (array) => {
   let tens = 0
-  for (let i = 0; i < array.length; i++) {
+  for (const element of array) {
     if (array[i] == 10) {
       tens++
     }
@@ -39,3 +39,9 @@ const anyOverOneHundred = (array) => {
   }
 }
 
+
+const pyramid = (array) => {
+  const stack = []
+  for (let) 
+
+}
