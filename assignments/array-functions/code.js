@@ -40,7 +40,7 @@ const anyOverOneHundred = (array) => {
 }
 
 
-const pyramid = (array) => {
+/*const pyramid = (array) => {
   const stack = []
   for (let) 
 
