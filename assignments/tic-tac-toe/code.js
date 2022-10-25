@@ -7,3 +7,16 @@
 
 registerOnclick((x, y) => {
   drawText('X', 450, 200, 'black', Math.min(50, 50) * 0.3);
+});
+
+const drawBoard = () => {
+  for (let i = 0; i < 2; i++) {
+    const x = (i + 1) * width / 3
+    drawLine(x, 0, x, height, 'black', 3)
+  }
+  for (let i = 0; i < 2; i++) {
+    const x = (i + 1) * height / 3
+    drawLine(0, x, width, x, 'black', 3)
+  }
+}
+drawBoard()
