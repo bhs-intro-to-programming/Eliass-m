@@ -15,3 +15,5 @@ const drawBoard = () => {
   }
 
 }
+
+drawBoard()
