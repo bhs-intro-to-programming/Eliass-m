@@ -11,7 +11,7 @@ registerOnclick((x, y) => {
 
 const drawBoard = () => {
   for (let i = 0; i < 2; i++) {
-    const x = width/3
+    const x = (i +1 ) * width/3
     drawLine(x, 0, x, height, 'black', 5)
   }
 
