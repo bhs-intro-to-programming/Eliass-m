@@ -24,4 +24,5 @@ drawBoard()
 const yRow = (y) => {
   let rowHeight = height / 3;
   Math.floor (y/rowHeight)
+  return (y)
 }
