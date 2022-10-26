@@ -21,6 +21,3 @@ const drawBoard = () => {
 }
 drawBoard()
 
-/*const hitBox = () => {
-  if (y)
-}
