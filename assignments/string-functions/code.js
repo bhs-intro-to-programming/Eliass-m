@@ -1,3 +1,3 @@
-const findFnord = (i) => {
-  return i.indexOf('fnord')
+const findFnord = (s) => {
+  return s.indexOf('fnord')
 }
