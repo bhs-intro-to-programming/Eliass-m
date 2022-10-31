@@ -35,3 +35,8 @@ const upDownLastCharacter = (s) => {
   }
 }
 
+const firstAndLast = (s) => {
+  if (s.length >=2) {
+    return s.substring (0) + s.substring (s.length)
+  }
+}
