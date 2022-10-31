@@ -31,6 +31,6 @@ const firstFewEveryOther = (s) => {
 
 const upDownLastCharacter = (s) => {
   if (s.length >= 1) {
-  return s.toUpperCase(s.length) + s.toLowerCase(s.length)  
+  return s.toUpperCase(s.length -1) + s.toLowerCase(s.length -1)  
   }
 }
