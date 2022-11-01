@@ -9,10 +9,6 @@ registerOnclick((x, y) => {
   drawText('O', x - 50, y + 50, 'black', Math.min(width, height) * 0.3);
 });
 
-registerOnclick((x, y) => {
-  drawText('X', x - 50, y + 50, 'black', Math.min(width, height) * 0.3);
-});
-
 const drawBoard = () => {
   for (let i = 0; i < 2; i++) {
     const x = (i + 1) * width / 3
