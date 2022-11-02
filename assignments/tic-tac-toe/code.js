@@ -30,3 +30,5 @@ const xRow = (width) => {
   let rowWidth = width / 3;
   Math.floor (x/rowWidth)
 }
+
+
