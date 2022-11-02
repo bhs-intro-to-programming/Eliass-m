@@ -7,7 +7,7 @@
 let turn = "X";
 registerOnclick((x, y) => {
   drawText(turn, x - 50, y + 50, 'black', Math.min(width, height) * 0.3);
-  //turn = turn === "X" ? turn = "O" : turn = "X";
+  turn = turn === "X" ? turn = "O" : turn = "X";
 });
 
 const drawBoard = () => {
