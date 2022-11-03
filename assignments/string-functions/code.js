@@ -20,3 +20,7 @@ const swapFrontAndBack = (s) => {
 const simplePigLatin = (s, num) => {
   return s.substring(num, s.length) + s.substring(0, num) + 'ay'
 }
+
+const sameIgnoringCase = (s1, s2) => {
+  return s1.toLowerCase() === s2.toLowerCase()
+}
