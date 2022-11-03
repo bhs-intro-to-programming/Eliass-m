@@ -6,6 +6,12 @@
 // weeks but for now you can just adapt this code.
 let turn = "X";
 registerOnclick((x, y) => {
+
+  spacingH = height/3
+
+
+
+
   drawText(turn, x - 50, y + 50, 'black', Math.min(width, height) * 0.3);
   turn = turn === "X" ? turn = "O" : turn = "X";
 });
