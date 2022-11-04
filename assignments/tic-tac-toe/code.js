@@ -13,7 +13,7 @@ registerOnclick((x, y) => {
   const spacingWidth = width / 3
   const xBoxSpace = Math.floor(x / spacingWidth)
 
-  drawText(turn, (xBoxSpace * (spacingWidth) + spacing / 2) - 50, (yBoxSpace * (spacingWidth) + spacing / 2) + 50, 'black', Math.min(width, height) * 0.3);
+  drawText(turn, xBoxSpace * (spacingWidth) + spacing / 2 - 50, yBoxSpace * (spacingWidth) + spacing / 2 + 50, 'black', Math.min(width, height) * 0.3);
   turn = turn === "X" ? turn = "O" : turn = "X";
 });
 
