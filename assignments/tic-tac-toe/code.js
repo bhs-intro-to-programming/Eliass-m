@@ -8,12 +8,12 @@ let turn = "X";
 registerOnclick((x, y) => {
 
   const spacingHeight = height / 3
-  const yBoxSpace = Math.floor(y / spacingHeight)
+  const box_y = Math.floor(y / spacingHeight)
 
   const spacingWidth = width / 3
-  const xBoxSpace = Math.floor(x / spacingWidth)
+  const box_x = Math.floor(x / spacingWidth)
 
-  drawText(turn, xBoxSpace * (spacingWidth) + spacingHeight / 2 - 50, yBoxSpace * (spacingWidth) + spacingWidth / 2 + 50, 'black', Math.min(width, height) * 0.3);
+  drawText(turn, box_x * (spacingWidth) + spacingHeight / 2 - 50, box_y * (spacingWidth) + spacingWidth / 2 + 50, 'black', Math.min(width, height) * 0.3);
   turn = turn === "X" ? turn = "O" : turn = "X";
 });
 
