@@ -1,3 +1,3 @@
 const getX = (o) => {
-  o.x
+  return o.x
 }
