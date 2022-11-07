@@ -22,7 +22,7 @@ const simplePigLatin = (s, num) => {
 }
 
 const isAllUpperCase = (s) => {
-  return s.toUpperCase[0]
+  return s.toUpperCase(0)
 }
 
 const sameIgnoringCase = (s1, s2) => {
