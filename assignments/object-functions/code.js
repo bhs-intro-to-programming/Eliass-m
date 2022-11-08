@@ -10,12 +10,12 @@ const emptyObject = () => {
   return {}
 }
 
-const distance = (o1, o2) => {
-  return Math.sqrt ((o1.x - o2.x)**2 + (o1.y - o2.y)**2)
+const distance = (p1, p2) => {
+  return Math.sqrt ((p1.x - p2.x)**2 + (p1.y - p2.y)**2)
 }
 
-const midpoint = (o1, o2) => {
-  return {"x" : (o1.x + o2.x)/2 , "y" : (o1.y + o2.y)/2 , }
+const midpoint = (p1, p2) => {
+  return {"x" : (p1.x + p2.x)/2 , "y" : (p1.y + p2.y)/2 , }
 }
 
 const sumSalaries = (arrayO) => {
