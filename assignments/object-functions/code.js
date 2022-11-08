@@ -43,5 +43,5 @@ const summarizeBooks = (arrayBooks) => {
     titles += arrayBooks[i].titles
     pages 
   }
-  return {}
+  return {"titles" : titles, "pages" : pages}
 }
