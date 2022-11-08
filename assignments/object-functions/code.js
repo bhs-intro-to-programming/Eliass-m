@@ -20,7 +20,7 @@ const midpoint = (o1, o2) => {
 
 const sumSalaries = (array) => {
   let sum = 0
-  for (let i = 0; i < array.length; i++){
+  for (let i = 0; i < array.length; i++) {
     sum += array[i].salary
   }
   return sum
@@ -28,10 +28,18 @@ const sumSalaries = (array) => {
 
 const newHighScore = (curHigh, array) => {
   let highS = curHigh
-  for (let i = 0; i < array.length; i++){
-    if (highS < array[i].score){
+  for (let i = 0; i < array.length; i++) {
+    if (highS < array[i].score) {
       highS = array[i].score
     }
   }
   return highS
+}
+
+const summarizeBooks = (arrayBooks) => {
+  let titles = []
+  let pages = 0
+  for (let i = 0; i < array.length; i++) {
+    
+  }
 }
