@@ -21,7 +21,7 @@ const midpoint = (o1, o2) => {
 const sumSalaries = (arrayO) => {
   let sum = 0
   for (let i = 0; i < arrayO.length; i++){
-    sum += array[i].salary
+    sum += arrayO[i].salary
   }
 return sum
 }
