@@ -3,5 +3,5 @@ const getX = (o) => {
 }
 
 const point = (x, y) => {
-  return 
+  return {"x" : x , "y" : x}
 }
