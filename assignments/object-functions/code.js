@@ -40,7 +40,7 @@ const summarizeBooks = (arrayBooks) => {
   let titles = []
   let pages = 0
   for(let i = 0; i < arrayBooks.length; i++){
-    titles += arrayBooks[i].titles
+    titles
     pages += arrayBooks[i].pages
   }
   return {"titles" : titles, "pages" : pages}
