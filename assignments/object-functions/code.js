@@ -9,3 +9,7 @@ const point = (x, y) => {
 const emptyObject = () => {
   return {}
 }
+
+const distance = (o1, o2) => {
+  return Math.sqrt ((o1.x - o2.x) **2 (o1.y - o2.y) **2)
+}
