@@ -35,3 +35,13 @@ const newHighScore = (curHigh, scoresArray) => {
   }
   return newHigh
 }
+
+const summarizeBooks = (arrayBooks) => {
+  let titles = []
+  let pages = 0
+  for(let i = 0; i < arrayBooks.length; i++){
+    titles += arrayBooks[i].titles
+    pages 
+  }
+  return {}
+}
