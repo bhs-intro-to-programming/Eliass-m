@@ -13,3 +13,12 @@ const sum = (numArr) => {
     total += element
   } return total
 }
+
+const evens = (numArr) => {
+  let even = []
+  for (const element of numArr){
+    if (element % 2 === 0){
+    even += element
+    }
+  } return even
+}
