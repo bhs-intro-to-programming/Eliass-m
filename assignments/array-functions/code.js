@@ -27,7 +27,7 @@ const anyOverOneHundred = (numArr) => {
   for (const element of numArr){
   if (element > 100){
     return true
-    else return false
   } 
+    else return false
   } 
 }
