@@ -24,10 +24,12 @@ const evens = (numArr) => {
 }
 
 const anyOverOneHundred = (numArr) => {
+  let n = 0
   for (const element of numArr){
   if (element > 100){
-    return true
+    n++
   } 
-    else return false
+  if (n > 0){return true}
+  else return false
   } 
 }
