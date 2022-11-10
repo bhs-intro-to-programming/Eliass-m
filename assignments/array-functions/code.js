@@ -22,3 +22,12 @@ const evens = (numArr) => {
     }
   } return even
 }
+
+const anyOverOneHundred = (numArr) => {
+  let hun = 100
+  for (const element of numArr){
+  if (element === hun){
+    return true
+  } else return false  
+  } 
+}
