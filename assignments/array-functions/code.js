@@ -1,43 +1,37 @@
-const countTens = (array) => {
+const countTens = (numArr) => {
   let tens = 0
-  for (const element of array) {
-    if (element === 10) {
-      tens++
+  for (const element of numArr){
+    if (element === 10){
+      tens ++
     }
-  }
-  return tens
-};
-
-const sum = (array) => {
-  let add = 0
-  for (const element of array) {
-    add += element;
-  }
-  return add
+  } return tens
 }
 
-const evens = (array) => {
-  let evenArray = []
-  for (const element of array) {
-    if (element % 2 === 0)
-      evenArray.push(element)
-  }
-  return evenArray
+const sum = (numArr) => {
+  let total = 0
+  for (const element of numArr){
+    total += element
+  } return total
 }
 
-const anyOverOneHundred = (array) => {
-  let num = 0
-  for (const element of array) {
-    if (element > 100) {
-    num++;
+const evens = (numArr) => {
+  let even = []
+  for (const element of numArr){
+    if (element % 2 === 0){
+    even.push(element)
     }
-  }
-  if (num > 0) {
-    return true
-  } else return false
-  
+  } return even
 }
 
-
-
-
+const anyOverOneHundred = (numArr) => {
+  let n = 0
+  for (const element of numArr){
+  if (element > 100){
+    n++;
+  } 
+  if (n > 0){
+  return true
+  }
+  else return false
+  } 
+}
