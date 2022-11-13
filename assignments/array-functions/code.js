@@ -30,6 +30,6 @@ const anyOverOneHundred = (array) => {
       huns = 1
     }
   }
-    if (huns === 1) {return true}
+    if (huns === 1) return true
     else return false
 }
