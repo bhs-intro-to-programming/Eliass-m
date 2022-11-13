@@ -34,7 +34,7 @@ const anyOverOneHundred = (array) => {
   }
   if (num > 0) {
     return true
-  } elsereturn false
+  } else return false
   
 }
 
