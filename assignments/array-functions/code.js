@@ -24,11 +24,12 @@ const evens = (array) => {
 }
 
 const anyOverOneHundred = (array) => {
+  let huns = 0
   for (const element of array) {
     if (element > 100) {
-      const huns = 1
+      huns = 1
     }
   }
-    if (huns > 0) {return true}
+    if (huns === 1) {return true}
     else return false
 }
