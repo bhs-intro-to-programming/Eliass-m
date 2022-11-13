@@ -22,3 +22,13 @@ const evens = (array) => {
     }
   } return newArr
 }
+
+const anyOverOneHundred = (array) => {
+  for (const element of array) {
+    if (element > 100) {
+      let huns = 1
+    }
+  }
+    if (huns > 0) {return true}
+    else return false
+}
