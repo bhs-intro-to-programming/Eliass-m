@@ -30,6 +30,15 @@ const anyOverOneHundred = (array) => {
       huns = 1
     }
   }
-    if (huns === 1) return true
-    else return false
+  if (huns === 1) return true
+  else return false
+}
+
+const pyramid = (n) => {
+  let array = []
+  for (let i = 0; i <= n; i++) {
+    for (let j = 0; j < i; j++) {
+      array.push(i)
+    }
+  } return array
 }
