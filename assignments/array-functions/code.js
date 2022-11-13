@@ -6,3 +6,10 @@ const countTens = (array) => {
     }
   } return tens
 }
+
+const sum = (array) => {
+  let total = 0
+  for (const element of array) {
+    total += element
+  } return total
+}
