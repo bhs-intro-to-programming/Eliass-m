@@ -1,46 +1,52 @@
-const countTens = (numArr) => {
+const countTens = (array) => {
   let tens = 0
-  for (const element of numArr) {
+  for (const element of array) {
     if (element === 10) {
       tens++
     }
-  } return tens
+  }
+  return tens
+};
+
+const sum = (array) => {
+  let add = 0
+  for (const element of array) {
+    add += element;
+  }
+  return add
 }
 
-const sum = (numArr) => {
-  let total = 0
-  for (const element of numArr) {
-    total += element
-  } return total
+const evens = (array) => {
+  let evenArray = []
+  for (const element of array) {
+    if (element % 2 === 0)
+      evenArray.push(element)
+  }
+  return evenArray
 }
 
-const evens = (numArr) => {
-  let even = []
-  for (const element of numArr) {
-    if (element % 2 === 0) {
-      even.push(element)
-    }
-  } return even
-}
-
-const anyOverOneHundred = (numArr) => {
-  let n = 0
-  for (const element of numArr) {
+const anyOverOneHundred = (array) => {
+  let num = 0
+  for (const element of array) {
     if (element > 100) {
-      n++;
+    num++;
     }
   }
-  if (n > 0) {
+  if (num > 0) {
     return true
+  } else {
+    return false
   }
-  else return false
 }
 
 const pyramid = (num) => {
   let array = []
-  for (let i =  0 ; i < num -1 ; i++) {
-    for (let j = 0 ; j < i ; j++){
-      array.push(j)
+  for (let i = 0; i <= num; i++){
+    for (let j = 0; j < i; j++){
+      array.push(i)
     }
-  } return array
-} 
+  }
+  return array
+}
+
+
