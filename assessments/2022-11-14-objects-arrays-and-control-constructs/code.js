@@ -19,11 +19,11 @@ if (p1.x === p2.x) {
   if (p1.y === p2.y){
     return true
   } else return false
-}
+} else return false
 };
 
 const totalWithTip = (bill, tipPercentage) => {
-
+return {"subtotal" : bill.subtotal, "tip" : bill.subtotal * tipPercentage, "total" : bill.subtotal + (bill.subtotal * tipPercentage) }
 };
 
 const isWinner = (player) => {
