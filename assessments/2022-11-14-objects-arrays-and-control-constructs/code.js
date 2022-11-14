@@ -41,7 +41,12 @@ for (const player of players) {
 };
 
 const bigWinners = (players) => {
-
+let newArr = []
+for (const player of players){
+  if (player.wins > 10){
+    newArr.push(player)
+  }
+} return newArr
 };
 
 const fillTimesTable = (table) => {
