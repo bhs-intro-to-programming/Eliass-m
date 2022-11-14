@@ -33,9 +33,9 @@ if (player.score > 100){
 };
 
 const updateWins = (players) => {
-for (const element of array) {
-  if (element.score > 100){
-    element.wins++
+for (const player of players) {
+  if (player.score > 100){
+    player.wins++
   }
 }
 };
