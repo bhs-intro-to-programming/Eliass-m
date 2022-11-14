@@ -2,31 +2,41 @@
 // should save you some time.
 
 const area = (rect) => {
+return rect.width * rect.height
 };
 
 const higherPaid = (e1, e2) => {
+
 };
 
 const isSamePoint = (p1, p2) => {
+
 };
 
 const totalWithTip = (bill, tipPercentage) => {
+
 };
 
 const isWinner = (player) => {
+
 };
 
 const updateWins = (players) => {
+
 };
 
 const bigWinners = (players) => {
+
 };
 
 const fillTimesTable = (table) => {
+
 };
 
 const sums = (n) => {
+
 };
 
 const rule110 = (cells) => {
+
 };
