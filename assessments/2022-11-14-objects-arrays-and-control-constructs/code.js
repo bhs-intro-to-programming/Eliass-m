@@ -27,7 +27,9 @@ return {"subtotal" : bill.subtotal, "tip" : bill.subtotal * tipPercentage, "tota
 };
 
 const isWinner = (player) => {
-
+if (player.score > 100){
+  return true
+} else return false
 };
 
 const updateWins = (players) => {
