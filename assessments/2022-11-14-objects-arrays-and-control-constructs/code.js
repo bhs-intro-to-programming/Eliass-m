@@ -11,13 +11,15 @@ const es2 = e2.salary
 if (es1 > es2){
   return e1
 }
-if (es2 > es1){
-  return e2
-}
+else return e2
 };
 
 const isSamePoint = (p1, p2) => {
-
+if (p1.x === p2.x) {
+  if (p1.y === p2.y){
+    return true
+  } else return false
+}
 };
 
 const totalWithTip = (bill, tipPercentage) => {
