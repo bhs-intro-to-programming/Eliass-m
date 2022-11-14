@@ -33,7 +33,11 @@ if (player.score > 100){
 };
 
 const updateWins = (players) => {
-
+for (const element of array) {
+  if (element.score > 100){
+    element.wins++
+  }
+}
 };
 
 const bigWinners = (players) => {
