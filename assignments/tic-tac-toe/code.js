@@ -17,7 +17,7 @@ registerOnclick((x, y) => {
   if(!(lastplacement[0] === box_x && lastplacement[1] === box_y)){
     drawText(turn, box_x * (spacingWidth) + width / 6 - 50, box_y * (spacingHeight) + height / 6 + 50, 'black', Math.min(width, height) * 0.3);
     turn = turn === "X" ? turn = "O" : turn = "X";
-
+    
   }
 });
 
