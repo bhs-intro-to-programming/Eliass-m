@@ -5,7 +5,6 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 let turn = "X";
-let lastplacement = [null, null]
 
 registerOnclick((x, y) => {
 
@@ -14,13 +13,9 @@ registerOnclick((x, y) => {
 
   const spacingWidth = width / 3
   const box_x = Math.floor(x / spacingWidth)
-  if(!(lastplacement[0] === box_x && lastplacement[1] === box_y)){
-    drawText(turn, box_x * (spacingWidth) + width / 6 - 50, box_y * (spacingHeight) + height / 6 + 50, 'black', Math.min(width, height) * 0.3);
-    lastplacement[0] = box_x;
-    lastplacement[1] = box_y;
-    turn = turn === "X" ? turn = "O" : turn = "X";
+  drawText(turn, box_x * (spacingWidth) + width / 6 - 50, box_y * (spacingHeight) + height / 6 + 50, 'black', Math.min(width, height) * 0.3);
+  turn = turn === "X" ? turn = "O" : turn = "X";
 
-  }
 });
 
 const drawBoard = () => {
