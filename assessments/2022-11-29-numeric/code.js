@@ -17,3 +17,7 @@ const leftOut = (numCh, numP) => {
 const probabilityAllHeads = (numFlips) => {
   return 1 / (2**numFlips)
 }
+
+const futureHour = (curHour, hoursAfter) => {
+  return curHour + (hoursAfter % 24)
+}
