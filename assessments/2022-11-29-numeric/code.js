@@ -15,5 +15,5 @@ const leftOut = (numCh, numP) => {
 }
 
 const probabilityAllHeads = (numFlips) => {
-  return 1 / (numFlips * 2)
+  return 1 / (2**numFlips)
 }
