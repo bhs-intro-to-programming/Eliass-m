@@ -11,7 +11,5 @@ const extraChocolates = (numCh, numP) => {
 }
 
 const leftOut = (numCh, numP) => {
-  if (numP > numCh){
-    return numP - numCh
-  } else return 0
+  return Math.max (numCh - numP)
 }
