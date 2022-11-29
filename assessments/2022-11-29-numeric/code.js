@@ -13,3 +13,7 @@ const extraChocolates = (numCh, numP) => {
 const leftOut = (numCh, numP) => {
   return Math.max ((numP - numCh), 0)
 }
+
+const probabilityAllHeads = (numFlips) => {
+  return 1 / (numFlips ** 2)
+}
