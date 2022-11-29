@@ -3,5 +3,5 @@ const totalEggs = (hardB, softB) => {
 }
 
 const chocolatesPerPerson = (numCh, numP) => {
-  return numCh % numP
+  return (numCh - (numCh % numP))/numP
 }
