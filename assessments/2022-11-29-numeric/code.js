@@ -21,3 +21,7 @@ const probabilityAllHeads = (numFlips) => {
 const futureHour = (curHour, hoursAfter) => {
   return curHour + (hoursAfter % 24)
 }
+
+const presentsBudget = (friends, avgPrice) => {
+  return friends * avgPrice
+}
