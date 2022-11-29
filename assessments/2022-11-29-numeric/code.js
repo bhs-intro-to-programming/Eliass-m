@@ -25,3 +25,11 @@ const futureHour = (curHour, hoursAfter) => {
 const presentsBudget = (friends, avgPrice) => {
   return friends * avgPrice
 }
+
+const prePresent = (budget, presents) => {
+  return budget/presents
+}
+
+const wrapingCombos = (numWrapping, numRibbons, numBows) => {
+  return numWrapping * numRibbons * numBows
+}
