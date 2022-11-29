@@ -33,3 +33,7 @@ const prePresent = (budget, presents) => {
 const wrapingCombos = (numWrapping, numRibbons, numBows) => {
   return numWrapping * numRibbons * numBows
 }
+
+const biggestNumber = (digits) => {
+  return (10**digits) - 1
+}
