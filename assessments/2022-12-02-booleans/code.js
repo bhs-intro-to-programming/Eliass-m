@@ -1,4 +1,7 @@
 const needHeavyCoat = (outside, cold) => {
   return outside && cold
 }
-needHeavyCoat(true && true)
+
+const needSunscreen = (beach, skiing) => {
+  return beach || skiing
+}
