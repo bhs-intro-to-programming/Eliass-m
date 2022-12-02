@@ -17,3 +17,15 @@ const isVenomous = (stripes, blueHead) => {
 const okaySpeed = (limit, speed) => {
   return speed <= (limit +10) && speed >= (limit - 10)
 }
+
+const twiceAsExpensive = (price1, price2) => {
+  return price1 > (price2*2)
+}
+
+const winningRecord = (wins, losses, ties) => {
+  return wins > (losses + ties)
+}
+
+const isMagicNumber = (num) => {
+  return 42 || 17
+}
