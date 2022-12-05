@@ -19,3 +19,7 @@ const containsX = (s) => {
     return false
   } else return true
 }
+
+const slug = (s1, s2, s3) => {
+  return (s1 + '-' + s2 + '-' + s3).toLowerCase()
+}
