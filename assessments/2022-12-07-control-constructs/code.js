@@ -81,7 +81,7 @@ const pair = (a, b) => {
 
 
 const logIfOk = (s) => {
-  if (isOk(s)){
+  if (isOk(s) === true){
     return log
   }
 }
