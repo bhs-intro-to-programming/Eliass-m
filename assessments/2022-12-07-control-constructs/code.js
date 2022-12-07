@@ -113,3 +113,11 @@ const threewayClassify = (value) => {
   }
   else return recordNotOk(value)
 }
+
+const sumSquares = (n) => {
+  let sum = 0
+  for (i = 0; i < n; i++){
+    sum += i
+  }
+  return sum
+}
