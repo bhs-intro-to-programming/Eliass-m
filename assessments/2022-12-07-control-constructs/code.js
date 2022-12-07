@@ -93,3 +93,13 @@ const firstOk = (n) => {
   }
 }
 
+const timeToLeet = () => {
+  
+}
+
+const classify = (value) => {
+  if (isOk(value) === true){
+    return recordOk(value)
+  } 
+  else return recordNotOk(value)
+}
