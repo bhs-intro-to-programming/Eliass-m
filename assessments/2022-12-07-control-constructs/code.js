@@ -85,3 +85,11 @@ const logIfOk = (s) => {
     log(s)
   }
 }
+
+const firstOk = (n) => {
+  for (let ok = 0; ok < n; ok++){
+    if (isOk(ok) === true)
+    return ok
+  }
+}
+
