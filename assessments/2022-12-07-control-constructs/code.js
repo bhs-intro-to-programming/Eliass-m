@@ -103,3 +103,13 @@ const classify = (value) => {
   } 
   else return recordNotOk(value)
 }
+
+const threewayClassify = (value) => {
+  if (isOk(value) === true){
+    return recordOk(value) 
+  }
+  else if (isMeh(value === true)){
+    return recordMeh(value)
+  }
+  else return recordNotOk(value)
+}
