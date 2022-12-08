@@ -53,9 +53,8 @@ registerOnclick((x, y) => {
   const spacingWidth = width / 3
   const box_x = Math.floor(x / spacingWidth)
   
-  if (cordArray[box_y][box_x] === '' && identify)
-
-});
+  if (cordArray[box_y][box_x] === '' && identify){}
+}
 
 
 
@@ -68,5 +67,3 @@ const xRow = (width) => {
   let rowWidth = width / 3;
   Math.floor(x / rowWidth)
 }
-
-
