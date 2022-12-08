@@ -45,7 +45,7 @@ const won = (turn) => {
   return winner
 }
 let turns = 0
-registerOnclick((x, y) => {
+registerOnclick(x, y) => {
 
   const spacingHeight = height / 3
   const box_y = Math.floor(y / spacingHeight)
@@ -58,9 +58,9 @@ registerOnclick((x, y) => {
 
 
 
-const yRow = (height) => {
-  let rowHeight = height / 3;
-  Math.floor(y / rowHeight)
+//const yRow = (height) => {
+/*  let rowHeight = height / 3;
+/  Math.floor(y / rowHeight)
 }
 
 const xRow = (width) => {
