@@ -21,5 +21,5 @@ const allTheSame = (array) => {
 }
 
 const extractColumn = (array, index) => {
-  return [array[0,index], array[1,index],array[2,index]]
+  return [array[0,[index]], array[1,[index]],array[2,[index]]]
 }
