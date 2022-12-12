@@ -21,5 +21,5 @@ const allTheSame = (array) => {
 }
 
 const extractColumn = (array, index) => {
-  return array(index)
+  return array[index]
 }
