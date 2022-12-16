@@ -138,3 +138,10 @@ const extractColumn = (array, index) => {
   }
   return newArr
 }
+
+let board = [
+     ['X', '', ''],
+     ['O', '', ''],
+     ['', 'X', '']
+   ]
+
