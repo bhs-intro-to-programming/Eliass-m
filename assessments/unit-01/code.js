@@ -10,3 +10,6 @@ const averageWeight = (itemWeights, items) => {
   return itemWeights / items
 }
 
+const hypotenuse = (l1, l2) => {
+  return Math.sqrt(l1**2 + l2**2)
+}
