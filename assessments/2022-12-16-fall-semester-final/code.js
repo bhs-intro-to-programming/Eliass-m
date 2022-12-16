@@ -116,3 +116,7 @@ const maxRadius = (width, height) => {
 const numCircles = (radius, width) => {
   return Math.floor(width/(radius*2))
 }
+
+const allTheSame = (array) => {
+  return array[0] === array[1] && array[0] === array[2]
+}
