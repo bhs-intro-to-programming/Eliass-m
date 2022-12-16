@@ -6,3 +6,6 @@
 //  console.log(`${a} times ${b} is ${product}`);
 //};
 
+const averageWeight = (itemWeights, items) => {
+  return itemWeights / items
+}
