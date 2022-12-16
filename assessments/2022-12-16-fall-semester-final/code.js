@@ -141,6 +141,6 @@ const extractColumn = (array, index) => {
 
 const fillTimesTable = (array) => {
   for (let i = 0; i < array.length; i++){
-    array[i] = array[i][0] * array[0][i]
+    array[i] = (array[i][0] + 1) * (array[0][i] + 1)
   }
 }
