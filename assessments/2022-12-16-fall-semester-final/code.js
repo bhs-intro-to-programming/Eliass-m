@@ -160,6 +160,3 @@ const timeToLeet = () => {
   return notLeet
 }
 
-const pairs = (n) => {
-  return pairs(n)
-}
