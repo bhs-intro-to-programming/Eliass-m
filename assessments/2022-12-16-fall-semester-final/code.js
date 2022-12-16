@@ -139,8 +139,4 @@ const extractColumn = (array, index) => {
   return newArr
 }
 
-const fillTimesTable = (array) => {
-  for (let i = 0; i < array.length; i++){
-    array[i] = (array[i - 1][0] + 1) * (array[0][i - 1] + 1)
-  }
-}
+const sums
