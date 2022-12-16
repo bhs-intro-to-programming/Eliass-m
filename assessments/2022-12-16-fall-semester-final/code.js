@@ -145,6 +145,9 @@ const sums = (n) => {
     if (i === 0){
       array.push(i)
       }
-  }
+    else {
+      array.push(array[i -1] + i)
+    }
+  } 
   return array
 }
