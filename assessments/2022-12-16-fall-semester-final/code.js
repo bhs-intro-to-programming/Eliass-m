@@ -151,3 +151,11 @@ const sums = (n) => {
   } 
   return array
 }
+
+const timeToLeet = () => {
+  let notLeet = 0
+  if (isLeet(random10k()) === false){
+    notLeet++
+  }
+  else return notLeet
+}
