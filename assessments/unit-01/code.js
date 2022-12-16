@@ -20,3 +20,7 @@ const maxRadius = (width, height) => {
   } 
   else return height/2
 }
+
+const numCircles = (radius, width) => {
+  return Math.floor(radius*2*width)
+}
