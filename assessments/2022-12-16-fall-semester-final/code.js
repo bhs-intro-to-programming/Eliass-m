@@ -138,11 +138,11 @@ const extractColumn = (array, index) => {
   }
   return newArr
 }
-
+let table = [[0 , 0, 0], [0, 0, 0], [0, 0, 0]]
 const fillTimesTable = (array) => {
   for (let i = 0; i < array.length; i++){
     array[i] = array[i][0] * array[0][i]
   }
 }
-
-let table = [[0 , 0, 0], [0, 0, 0], [0, 0, 0]]
+fillTimesTable(table)
+console.log(fillTimesTable)
