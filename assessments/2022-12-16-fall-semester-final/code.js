@@ -96,3 +96,23 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+
+const averageWeight = (itemWeights, items) => {
+  return itemWeights / items
+}
+
+const hypotenuse = (l1, l2) => {
+  return Math.sqrt(l1**2 + l2**2)
+}
+
+const maxRadius = (width, height) => {
+  if (height >= width) {
+    return width/2
+  } 
+  else return height/2
+}
+
+const numCircles = (radius, width) => {
+  return Math.floor(width/(radius*2))
+}
