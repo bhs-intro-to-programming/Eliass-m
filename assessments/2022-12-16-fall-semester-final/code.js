@@ -139,4 +139,9 @@ const extractColumn = (array, index) => {
   return newArr
 }
 
-const sums
+const sums = (n) => {
+  let array = []
+  for (let i = 0; i <= n + 1; i++){
+    array.push(i + [i])
+  }
+}
