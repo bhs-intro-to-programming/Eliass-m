@@ -131,4 +131,10 @@ const allTheSame = (array) => {
   return array[0] === array[1] && array[0] === array[2]
 }
 
-const extractColumn = (array) =>
+const extractColumn = (array, index) => {
+  let newArr = []
+  for (let i = 0; i <= array.length; i++){
+    newArr.push(array[i])
+  }
+  return newArr
+}
