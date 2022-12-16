@@ -154,8 +154,8 @@ const sums = (n) => {
 
 const timeToLeet = () => {
   let notLeet = 0
-  if (isLeet(random10k()) === false){
+  while(isLeet(random10k()) === false){
     notLeet++
   }
-  else return notLeet
+  return notLeet
 }
