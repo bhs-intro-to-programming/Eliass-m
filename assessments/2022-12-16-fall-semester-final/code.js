@@ -143,7 +143,7 @@ const sums = (n) => {
   let array = []
   for (let i = 0; i <= n + 1; i++){
     let push = [i] + i -1 
-    array.push()
+    array.push(push)
   }
   return array
 }
