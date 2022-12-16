@@ -13,3 +13,10 @@ const averageWeight = (itemWeights, items) => {
 const hypotenuse = (l1, l2) => {
   return Math.sqrt(l1**2 + l2**2)
 }
+
+const maxRadius = (width, height) => {
+  if (height >= width) {
+    return width/2
+  } 
+  else return height/2
+}
