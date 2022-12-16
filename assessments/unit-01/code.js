@@ -9,3 +9,4 @@
 const averageWeight = (itemWeights, items) => {
   return itemWeights / items
 }
+
