@@ -144,5 +144,3 @@ const fillTimesTable = (array) => {
     array[i] = array[i][0] * array[0][i]
   }
 }
-fillTimesTable(table)
-console.log(fillTimesTable(table))
