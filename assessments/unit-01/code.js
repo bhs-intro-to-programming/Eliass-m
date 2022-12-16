@@ -6,22 +6,3 @@
 //  console.log(`${a} times ${b} is ${product}`);
 //};
 
-const averageWeight = (weight, numitems) => {
-  return weight / numitems;
-};
-
-const hypotenuse = (sidea, sideb) => {
-  return Math.sqrt(sidea ** 2 + sideb ** 2);
-};
-
-const maxRadius = (width, height) => {
-  return Math.min(width, height) /2
-};
-
-const numCircles = (radius, width) => {
-  return Math.floor(width / (radius *2))
-}
-
-const offset = (areawidth, figurewidth) => {
-  
-}
