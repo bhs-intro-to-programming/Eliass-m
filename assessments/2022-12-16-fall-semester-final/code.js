@@ -117,6 +117,14 @@ const numCircles = (radius, width) => {
   return Math.floor(width/(radius*2))
 }
 
+const makeboard = () => {
+  return [
+    ['','',''], ['','',''], ['','',''],
+  ]
+}
+
 const allTheSame = (array) => {
   return array[0] === array[1] && array[0] === array[2]
 }
+
+const extractColumn = (array) =>
