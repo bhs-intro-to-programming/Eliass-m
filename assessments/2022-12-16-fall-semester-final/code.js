@@ -144,4 +144,5 @@ const sums = (n) => {
   for (let i = 0; i <= n + 1; i++){
     array.push(i + [i])
   }
+  return array
 }
