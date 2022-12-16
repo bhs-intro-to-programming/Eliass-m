@@ -145,4 +145,4 @@ const fillTimesTable = (array) => {
   }
 }
 fillTimesTable(table)
-console.log(fillTimesTable)
+console.log(fillTimesTable())
