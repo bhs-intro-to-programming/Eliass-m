@@ -116,10 +116,14 @@ const maxRadius = (width, height) => {
 const numCircles = (radius, width) => {
   return Math.floor(width/(radius*2))
 }
+const makeRow = () => {
+  return ['','','']
+}
 
-const makeboard = () => {
+
+const makeBoard = () => {
   return [
-    ['','',''], ['','',''], ['','',''],
+    makeRow(), makeRow(), makeRow(),
   ]
 }
 
