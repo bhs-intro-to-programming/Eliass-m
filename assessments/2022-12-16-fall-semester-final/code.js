@@ -133,7 +133,7 @@ const allTheSame = (array) => {
 
 const extractColumn = (array, index) => {
   let newArr = []
-  for (let i = index; i < array.length; i = i + 3){
+  for (let i = index; i < array.length; i = i + 2){
     newArr.push
   }
   return newArr
