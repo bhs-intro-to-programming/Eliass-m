@@ -162,11 +162,3 @@ const timeToLeet = () => {
 
 let table = [[0 , 0, 0], [0, 0, 0], [0, 0, 0]]
 
-const fillTimesTable = (array) => {
-  let n = array.length
-  for (let i = 0; i < n;i++ ){
-    for (let j = 0; j < n;j++){
-      array[i][j] = (i+1) * (j+1)
-    }
-  }
-}
