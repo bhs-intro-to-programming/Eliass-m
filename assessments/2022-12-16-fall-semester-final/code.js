@@ -96,3 +96,69 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+
+const averageWeight = (itemWeights, items) => {
+  return itemWeights / items
+}
+
+const hypotenuse = (l1, l2) => {
+  return Math.sqrt(l1**2 + l2**2)
+}
+
+const maxRadius = (width, height) => {
+  if (height >= width) {
+    return width/2
+  } 
+  else return height/2
+}
+
+const numCircles = (radius, width) => {
+  return Math.floor(width/(radius*2))
+}
+const makeRow = () => {
+  return ['','','']
+}
+
+
+const makeBoard = () => {
+  return [
+    makeRow(), makeRow(), makeRow(),
+  ]
+}
+
+const allTheSame = (array) => {
+  return array[0] === array[1] && array[0] === array[2]
+}
+
+const extractColumn = (array, index) => {
+  let newArr = []
+  for (let i = 0; i < array.length; i++){
+    newArr.push(array[i][index])
+  }
+  return newArr
+}
+
+const sums = (n) => {
+  let array = []
+  for (let i = 0; i < n + 1; i++){
+    if (i === 0){
+      array.push(i)
+      }
+    else {
+      array.push(array[i -1] + i)
+    }
+  } 
+  return array
+}
+
+const timeToLeet = () => {
+  let notLeet = 0
+  while(isLeet(random10k()) === false){
+    notLeet++
+  }
+  return notLeet
+}
+
+let table = [[0 , 0, 0], [0, 0, 0], [0, 0, 0]]
+
