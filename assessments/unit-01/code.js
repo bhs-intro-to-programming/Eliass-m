@@ -5,3 +5,27 @@ const emit = (a, b, product) => {
 };
 
 // Write your code here ...
+
+//const timesTable
+//const emit = (a, b, product) => {
+//  console.log(`${a} times ${b} is ${product}`);
+//};
+
+const averageWeight = (itemWeights, items) => {
+  return itemWeights / items
+}
+
+const hypotenuse = (l1, l2) => {
+  return Math.sqrt(l1**2 + l2**2)
+}
+
+const maxRadius = (width, height) => {
+  if (height >= width) {
+    return width/2
+  } 
+  else return height/2
+}
+
+const numCircles = (radius, width) => {
+  return Math.floor(width/(radius*2))
+}
